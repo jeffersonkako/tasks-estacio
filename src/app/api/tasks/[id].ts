@@ -15,7 +15,7 @@ export default async function handler(req:any, res:any) {
         const task: ITask | null = await Task.findByIdAndUpdate(req.query.id, req.body, {
           new: true,
           runValidators: true,
-        });
+        })!;
         res.status(200).json({ success: true, data: task });
       } catch (error) {
         res.status(400).json({ success: false });
