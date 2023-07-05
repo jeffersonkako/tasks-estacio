@@ -19,8 +19,7 @@ export default class ControlDb {
 
   public async obterTarefas() {
     const response = await this.control.obterTarefas();
-    const data = response.data; //vscode não reconhece mas funciona e não gera erro 
-    return data;
+    return response;
   }
 
   public incluir(tarefa: Tarefa) {
