@@ -9,14 +9,13 @@ export default async function handler(req:any, res:any) {
   
   console.log('dentro de handler method',method,req.body)
 
-  switch (method) {
+    switch (method) {
     case 'PUT':
       try {
-        const task: ITask = (await Task.findByIdAndUpdate(req.query.id, req.body, {
+        const task: ITask | any = await Task.findByIdAndUpdate(req.query.id, req.body, {
           new: true,
           runValidators: true,
-        })) ?? {} as ITask;
-  
+        });
         res.status(200).json({ success: true, data: task });
       } catch (error) {
         res.status(400).json({ success: false });
