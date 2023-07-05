@@ -12,12 +12,17 @@ export default async function handler(req:any, res:any) {
   switch (method) {
     case 'PUT':
       try {
-        const task: ITask = await Task.findByIdAndUpdate(req.query.id, req.body, {
+        const task: ITask | null = await Task.findByIdAndUpdate(req.query.id, req.body, {
           new: true,
           runValidators: true,
-        }) as ITask;
+        });
   
-        res.status(200).json({ success: true, data: task });
+        if (task !== null) {
+          const validTask: ITask = task;
+          res.status(200).json({ success: true, data: validTask });
+        } else {
+          res.status(404).json({ success: false, message: 'Task not found' });
+        }
       } catch (error) {
         res.status(400).json({ success: false });
       }
