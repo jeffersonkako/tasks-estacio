@@ -12,7 +12,7 @@ export default async function handler(req:any, res:any) {
   switch (method) {
     case 'PUT':
       try {
-        const task: ITask | null = await Task.findByIdAndUpdate(req.query.id, req.body, {
+        const task: ITask = await Task.findByIdAndUpdate(req.query.id, req.body, {
           new: true,
           runValidators: true,
         })!;
