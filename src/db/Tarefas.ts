@@ -4,7 +4,7 @@ export interface ITask  {
   title: string;
   relevance:string;
   completed: boolean;
-  null?:any;
+  nullabeprop:null;
 }
 
 const TaskSchema = new mongoose.Schema<ITask>({
