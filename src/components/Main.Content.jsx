@@ -77,7 +77,7 @@ const MainComponent = () => {
     return (
         <>
             <div
-                className="max-w-[800px] container bg-[#23262c] drop-shadow-[0px_5px_10px_rgba(0,0,0,0.60)] mx-auto rounded-[20px] w-9/12 mt-5 px-10 py-10">
+                className="max-w-[800px] container bg-[#23262c] drop-shadow-[0px_5px_10px_rgba(0,0,0,0.60)] mx-auto rounded-[20px] w-10/12 mt-5 px-10 py-10">
                 <h1>Adicione sua tarefa: </h1>
                 <InputNovaTarefa incluirTarefa={incluirTarefa}/>
                 {listaTarefas.map((tarefa) => (
