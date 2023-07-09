@@ -1,6 +1,7 @@
 import mongoose from 'mongoose'
 
 export interface ITask  {
+  id: number;
   title: string;
   relevance:string;
   completed: boolean;

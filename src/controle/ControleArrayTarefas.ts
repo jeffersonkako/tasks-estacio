@@ -71,7 +71,7 @@ export default class ControleTarefasArray implements IControleTarefas {
     return this.tarefas;
   }
 
-  public incluir(novaTarefa: Tarefa): void {
+  public incluir(novaTarefa: ITask): void {
     novaTarefa.id=this.obterMaiorId()
     console.log('novaTarefa',novaTarefa) 
     this.tarefas.push(novaTarefa);

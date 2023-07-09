@@ -36,7 +36,7 @@ export default function Header() {
             <></>
           ) : session ? (
             <button type="button" onClick={() => signOut()} className="bg-transparent font-medium rounded-xl text-sm text-center inline-flex items-center">
-              <img className='w-10 mr-2' src={`${session?.user?.image}`} alt={`${session?.user?.name}`} />
+              <img className='w-10 mr-2 rounded-[50%]' src={`${session?.user?.image}`} alt={`${session?.user?.name}`} />
               <h2>{session?.user?.name}</h2> <FiLogOut className='ml-2 text-[20px] text-[#24292f]' />
             </button>
 
