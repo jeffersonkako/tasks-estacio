@@ -10,7 +10,7 @@ export default function Team() {
         <div className='inline-flex'>
         <FiArrowLeftCircle
         className='text-gray-300 text-[40px] hover:text-red-500 cursor-pointer ml-3' />
-        <h2 className='ml-[250px] mb-10'>DEVELOPERS - TEAM 02</h2>
+        <h2 className='ml-[1rem] mb-10'>DEVELOPERS - TEAM 02</h2>
         </div>
         
       </Link>
