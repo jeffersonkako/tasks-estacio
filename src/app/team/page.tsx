@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Team() {
   return (
-    <div className="container bg-[#23262c] drop-shadow-[0px_5px_10px_rgba(0,0,0,0.60)] mx-auto rounded-[20px] max-w-[800px] mt-5 px-5 py-10 ">
+    <div className="container mx-auto px-4 py-8 max-w-lg bg-[#23262c] drop-shadow-[0px_5px_10px_rgba(0,0,0,0.60)] rounded-[20px]">
       <Link href="/">
         <div className='inline-flex'>
         <FiArrowLeftCircle
