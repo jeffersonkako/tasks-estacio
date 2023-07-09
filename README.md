@@ -16,9 +16,9 @@
 
  <h1 align="center"> DEV TEAM 02 </h1>
  <hr>
-
-- [ANDRE LUIZ FERREIRA DE SOUZA](https://github.com/adventureandre) - MATRICULA: 202208604943
+ 
 - [JEFFERSON PONTE PESSOA](https://github.com/jeffersonkako) - MATRICULA: 202208291228
+- [ANDRE LUIZ FERREIRA DE SOUZA](https://github.com/adventureandre) - MATRICULA: 202208604943
 - [MARCO BAROZZI](https://github.com/msbzz) - MATRICULA: 202211381232
 - [AMANDA DUQUE KAWAUCHI](https://github.com/madukisp) - MATRICULA: 202209170254
 - [EMERSON GREGORIO ALVES](https://github.com/Gregdev22) - MATRICULA: 202209084986
@@ -50,7 +50,7 @@
 - Quando o usuário marcar uma tarefa como realizada, o texto daquela linha deve ser tachado (line-through);
 - Disponibilizar um README documentando racional, e qualquer coisa que queira documentar sobre o sistema e principalmente como iniciá-lo.
 
- <h1 align="center"> 🌟 Bônus da Missão Certificação (Não obrigatórios)  </h1>
+ <h1 align="center"> 🌟 Bônus da Missão Certificação </h1>
  <hr>
 
 - A lista deve ser salva no "localStorage" do navegador (incluindo quais itens já foram realizados), e deve ser carregada sempre que a página for reaberta.
@@ -63,8 +63,22 @@
 
 - Incluir/remover anexo as tarefas.
 
-- Disponibilizar um Dockerfile ou compose com instruções de como iniciar o sistema.
 
- <h1 align="center"> ⚒ APLICAÇÃO ⚒ </h1>
+ <h1 align="center"> ⚒ SITE ⚒ </h1>
+ https://tasks-estacio.vercel.app
  <hr>
+
+ ![image](https://github.com/jeffersonkako/tasks-estacio/assets/104142117/231c7a1d-a262-4467-9a5e-19057972383b)
+ ![image](https://github.com/jeffersonkako/tasks-estacio/assets/104142117/3a374ed1-56b4-4baf-ace3-db824c694067)
+ ![image](https://github.com/jeffersonkako/tasks-estacio/assets/104142117/4aa1086a-760c-4eb2-8b4d-2a123119cfa0)
+ ![image](https://github.com/jeffersonkako/tasks-estacio/assets/104142117/43025f94-e752-40b5-b919-55c7303cf1fd)
+ ![image](https://github.com/jeffersonkako/tasks-estacio/assets/104142117/de60271e-364e-41e2-bdce-50096eba602a)
+ ![image](https://github.com/jeffersonkako/tasks-estacio/assets/104142117/15e1eee7-94fb-4594-a5d4-42d247a14d67)
+
+
+
+ 
+
+
+
 
