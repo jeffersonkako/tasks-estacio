@@ -64,7 +64,7 @@ const MainComponent = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-lg">
+    <div className="container mx-auto px-4 py-8 max-w-lg bg-[#23262c] drop-shadow-[0px_5px_10px_rgba(0,0,0,0.60)]">
       <h1 className="text-white text-2xl font-bold mb-4">Adicione sua tarefa:</h1>
       <InputNovaTarefa incluirTarefa={incluirTarefa} />
       {listaTarefas.map((tarefa) => (
